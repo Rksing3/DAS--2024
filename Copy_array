@@ -1,0 +1,23 @@
+# Copy the Array
+# You are given a constant array A and an integer B.You are required to return another array where outArr[i] = A[i] + B.
+Input 1:
+A = [1,2,3,2,1]
+B = 3
+class solution:
+   def solve(self,A,B):
+      ans=[]
+      for i in range(0,len(A)):
+           ans.append(A[i]+B)
+      return ans
+---------------------------------------------------------------------------------------------------------
+# Reverse the Array
+#You are given a constant array A. You are required to return another array which is the reversed form of the input array.
+Input 2:
+A = [1,1,10]
+class solution:
+   def solve(self,A):
+     n =len(A)
+     ans =[]
+     for i in range(0,n):
+       ans.append(A[n-i-1])
+return ans
